@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tasks</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="wrap">
+  <div class="topbar">
+    <div>
+      <p class="eyebrow">Today</p>
+      <h1>Tasks</h1>
+      <div id="dateLabel"></div>
+    </div>
+    <div class="theme-toggle" id="themeToggle">
+      <span class="label" id="themeLabel">Light</span>
+      <div class="knob" id="themeKnob">☀️</div>
+    </div>
+  </div>
+
+  <div class="add-row">
+    <input type="text" id="taskInput" placeholder="What needs doing?" maxlength="120">
+    <button id="addBtn">Add</button>
+  </div>
+
+  <div id="taskList"></div>
+
+  <div class="footer-row">
+    <span id="countLabel">0 tasks</span>
+    <button id="clearDone">Clear completed</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

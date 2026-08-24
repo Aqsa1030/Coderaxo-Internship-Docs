@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "countryName": "Pakistan",
+    "capital": "Islamabad",
+    "population": 241499431,
+    "interestingFact": "Pakistan is home to K2, the second-highest mountain in the world, and has 5 of the 14 highest peaks on Earth."
+  },
+  {
+    "id": 2,
+    "countryName": "World",
+    "capital": "No Capital",
+    "population": "Null",
+    "interestingFact": "There are 195 countries in the world today, including 193 United Nations member states and 2 observer states."
+  },
+  {
+    "id": 3,
+    "countryName": "Nepal",
+    "capital": "Kathmandu",
+    "population": 29609623,
+    "interestingFact": "Nepal is home to Mount Everest, the tallest mountain in the world, standing at 8,848 meters."
+  },
+  {
+    "id": 4,
+    "countryName": "Egypt",
+    "capital": "Cairo",
+    "population": 104258327,
+    "interestingFact": "The Pyramids of Giza are one of the Seven Wonders of the Ancient World."
+  },
+  {
+    "id": 5,
+    "countryName": "China",
+    "capital": "Beijing",
+    "population": 1444216107,
+    "interestingFact": "The Great Wall of China is visible from space on rare occasions."
+  }
+]
